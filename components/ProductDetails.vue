@@ -21,6 +21,9 @@
 </template>
 
 <script setup>
+definePageMeta({
+    layout: 'default'
+})
 
 const { product } = defineProps(['product'])
 </script>
